@@ -1,0 +1,28 @@
+.reviewsCards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.comment {
+	flex-basis: 400px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+@media(max-width: 768px) {
+	.comment {
+		flex-wrap: wrap;
+	}
+}
+
+.avatar {
+	flex-basis: 200px;
+	flex-shrink: 0;
+}
+
+.avatar img {
+	width: 100%;
+	height: 100%;
+}

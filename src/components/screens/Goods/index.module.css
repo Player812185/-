@@ -1,0 +1,21 @@
+.item {
+	background-color: #eee;
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.item img {
+	border-radius: 8px;
+}
+
+.buy {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
